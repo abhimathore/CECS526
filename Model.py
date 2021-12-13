@@ -26,10 +26,8 @@ y_pred = mind.predict(X_test)
 # Plot outputs
 plt.scatter(X_test, y_test, color="black")
 plt.plot(X_test, y_pred, color="blue", linewidth=3)
-
-plt.xticks(())
-plt.yticks(())
-
+plt.xlabel('Years of Experience')
+plt.ylabel('Salary')
 plt.show()
 
 # Saving the Model as pickle file
