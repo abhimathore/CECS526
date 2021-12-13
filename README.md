@@ -29,7 +29,7 @@ docker attach MLOps
 ```
 6. Git clone the repository.
 ```bash
-git clone <Repository_URL>
+git clone https://github.com/abhimathore/CECS526
 ```
 7. Before diving in we install all the requirements.
 ```bash
